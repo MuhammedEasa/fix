@@ -18,13 +18,14 @@ import { useState } from 'react';
 import { motion } from 'framer-motion';
 import { links, menu } from './constants';
 import logo from "../../../../public/svgs/fix-logo.png"
+import logoBlack from "../../../../public/svgs/fix-logo-black.png"
 const Header = () => {
   const [isOpen, setIsOpen] = useState(false);
   return (
     <Wrapper>
       <Inner>
         <LogoContainer>
-          <Image src={logo} alt="logo" priority />
+          <Image src={logoBlack} alt="logo" priority />
           <BurgerMenu onClick={() => setIsOpen(!isOpen)}>
             <motion.div
               variants={menu}

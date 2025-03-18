@@ -1,16 +1,55 @@
 import { createGlobalStyle } from 'styled-components';
+// :root {
+//   --Background: #070606;
+//   --white: #fff;
+//   --light-gray: #dcdcdc;
+//   --link-color: #bdbdbd;
+//   --green: #2b892e;
+//   --emerald: #48d64c;
+// }
+// :root {
+//   --Background: #2a1a4d;
+//   --white: #d1c4e9;
+//   --light-gray: #9575cd;
+//   --link-color: #7e57c2;
+//   --green: #4a148c;
+//   --emerald: #ab47bc;
+// }
 
+
+// :root {
+//   --Background: #000000;
+//   --white: #ffffff;
+//   --light-gray: #ff00ff;
+//   --link-color: #00ffff;
+//   --green: #00ff00;
+//   --emerald: #ff9900;
+// }
+ 
+// :root {
+//   --Background: #ffffff;
+//   --white: #222222;
+//   --light-gray: #aaaaaa;
+//   --link-color: #007bff;
+//   --green: #198754;
+//   --emerald: #28a745;
+// }
 const styled = { createGlobalStyle };
 
 export const GlobalStyles = styled.createGlobalStyle`
-  :root {
-    --Background: #070606;
-    --white: #fff;
-    --light-gray: #dcdcdc;
-    --link-color: #bdbdbd;
-    --green: #2b892e;
-    --emerald: #48d64c;
-  }
+ 
+
+ :root {
+  --Background: #fff8e1;
+  --white: #5d4037;
+  --light-gray: #a1887f;
+  --link-color: #000000;
+  --green: #6d4c41;
+  --emerald: #8d6e63;
+}
+
+
+
 
   * {
     box-sizing: border-box;

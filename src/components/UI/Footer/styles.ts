@@ -64,13 +64,14 @@ export const AddressContainer = styled.div`
   p {
     font-size: 1rem;
     font-weight: 400;
-    color: #efefef;
+    color: var(--link-color);
     max-width: 19.5rem;
   }
 
   @media (max-width: 768px) {
     p {
       font-size: 0.875rem;
+      color: var(--link-color);
     }
   }
 `;
@@ -83,7 +84,7 @@ export const SocialMediaContainer = styled.div`
   svg {
     width: 1.5rem;
     height: 1.5rem;
-    color: #ffffff;
+    color: var(--link-color);
     cursor: pointer;
     transition: color 0.3s ease;
 
@@ -102,6 +103,7 @@ export const MessageContainer = styled.div`
     font-size: 1.25rem;
     font-weight: 600;
     margin-bottom: 0.5rem;
+    
   }
 
   @media (max-width: 768px) {
@@ -114,7 +116,7 @@ export const InputField = styled.input`
   border-radius: 0.5rem;
   border: 1px solid #3d3d3d;
   background-color: transparent;
-  color: #ffffff;
+  color: var(--link-color);
   font-size: 1rem;
   width: 100%;
   min-width: 18rem;
@@ -180,7 +182,7 @@ export const LinksContainer = styled.ul`
   gap: 0.75rem;
 
   li {
-    color: #efefef;
+    color: var(--link-color);
     font-size: 1rem;
     font-weight: 400;
     cursor: pointer;
@@ -216,7 +218,7 @@ export const FooterBottom = styled.div`
   p {
     font-size: 1rem;
     font-weight: 400;
-    color: #efefef;
+    color: var(--link-color);
     cursor: pointer;
   }
 
@@ -227,6 +229,7 @@ export const FooterBottom = styled.div`
 
     p {
       font-size: 0.875rem;
+      color: var(--link-color);
     }
   }
 `;

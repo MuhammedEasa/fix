@@ -30,7 +30,7 @@ export const Header = styled.header`
     font-size: 4rem;
     font-weight: 500;
     margin-bottom: 1rem;
-    
+        color: var(--Background);
     @media (max-width: 768px) {
       font-size: 2.25rem;
     }

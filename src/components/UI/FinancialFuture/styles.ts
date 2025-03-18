@@ -80,7 +80,7 @@ export const TextCtn = styled.div`
   }
 
   p {
-    color: var(--link-color);
+    color: var(--Background);
     font-size: 1.25rem;
     font-weight: 400;
     line-height: 1.75rem;

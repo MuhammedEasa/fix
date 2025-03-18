@@ -1,5 +1,6 @@
 import Image from 'next/image';
 import footer_logo from "../../../../public/svgs/fix-logo-footer.png";
+import footer_logo_black from "../../../../public/svgs/fix-logo-footer-logo.png";
 import ic_copyright from '../../../../public/svgs/ic_copyright.svg';
 
 // Define the links array
@@ -42,7 +43,7 @@ const Footer = () => {
     <Wrapper>
       <Inner>
         <FooterLogo>
-          <Image src={footer_logo} alt="footer_logo" />
+          <Image src={footer_logo_black} alt="footer_logo" />
         </FooterLogo>
         <FooterMainContent>
           <FooterMiddle>

@@ -27,7 +27,7 @@ export const ActionButton = styled(Link)`
   padding: 1rem 1.5rem;
   border-radius: 6.25rem;
   background: var(--green);
-  color: var(--white);
+  color: var(--Background);
   font-size: 1rem;
   font-weight: 600;
   transition: all 0.2s ease;
@@ -37,6 +37,7 @@ export const ActionButton = styled(Link)`
     background: var(--green-dark);
     transform: translateY(-2px);
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    color: var(--white);
   }
 `;
 
